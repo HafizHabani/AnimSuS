@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <title>AnimHub | Situs Streaming Anime</title>
+</head>
+<body>
+    <div class="top-header">
+        <div class="section">
+            <div class="logo">
+                <img src="img/animSUS.png" alt="">
+            </div>
+            <div class="nav">
+                <div class="navbar">
+                  <div class="nav-links">
+                    <ul class="links">
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="daftaranime.html">Daftar Anime</a></li>
+                      <li>
+                        <a href="#">Tahun Rilis</a>
+                        <ul class="TahunRilis sub-menu">
+                          <li><a href="#">Spring 2020</a></li>
+                          <li><a href="#">Summer 2020</a></li>
+                          <li><a href="#">Fall 2020</a></li>
+                          <li><a href="#">Winter 2020</a></li>
+                          <li><a href="#">Spring 2021</a></li>
+                          <li><a href="#">Summer 2021</a></li>
+                          <li><a href="#">Fall 2021</a></li>
+                          <li><a href="#">Winter 2021</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Genre</a>
+                        <ul class="Genre sub-menu">
+                          <li><a href="#">Action</a></li>  
+                          <li><a href="#">Adventure</a></li>  
+                          <li><a href="#">Comedy</a></li>
+                          <li><a href="#">Drama</a></li>
+                          <li><a href="#">Fantasy</a></li>
+                          <li><a href="#">Horror</a></li>
+                          <li><a href="#">Romance</a></li>
+                          <li><a href="#">Yuri</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Top Character</a></li>
+                      <li><a href="profile.html">Profile</a></li>
+                      <li><a class="active" href="calculator.html">Calculator</a></li>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+            <div class="search-container">
+                <form action="#">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit"><img src="img/search-icon.png" alt=""></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="isi">
+        <div class="hal3">
+            <div class="main">
+                <h2>Calculator</h2>
+                <form name="form">
+                    <input disabled="disabled "class="textarea" name="textarea">
+                </form>
+                <table>
+					<tr>
+						<td><input style="font-size: 19px" class="button" type="button" value="CE" onclick="clean()"></td>
+						<td><input style="font-size: 19px" class="button" type="button" value="C" onclick="back()"></td>
+						<td><input class="button btn" type="button" value="/" onclick="insert(' / ')"></td>
+						<td><input class="button btn" type="button" value="x" onclick="insert(' * ')"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" value="7" onclick="insert(7)"></td>
+						<td><input class="button" type="button" value="8" onclick="insert(8)"></td>
+						<td><input class="button" type="button" value="9" onclick="insert(9)"></td>
+						<td><input class="button btn" type="button" value="-" onclick="insert(' - ')"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" value="4" onclick="insert(4)"></td>
+						<td><input class="button" type="button" value="5" onclick="insert(5)"></td>
+						<td><input class="button" type="button" value="6" onclick="insert(6)"></td>
+						<td><input class="button btn" type="button" value="+" onclick="insert(' + ')"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" value="1" onclick="insert(1)"></td>
+						<td><input class="button" type="button" value="2" onclick="insert(2)"></td>
+						<td><input class="button" type="button" value="3" onclick="insert(3)"></td>
+						<td><input class="button btn" style="font-size: 19px" type="button" value="mod" onclick="insert(' % ')"></td>
+					</tr>
+					<tr>
+						<td><input class="button" type="button" value="0" onclick="insert(0)"></td>
+						<td><input class="button" type="button" value="." onclick="insert('.')"></td>
+						<td><input class="button" type="button" value="n" onclick="insert(' ** ')"></td>
+						<td><input class="button btn" type="button" value="=" onclick="equal()"></td>
+					</tr>
+				</table>
+            </div>
+        </div>
+    </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Top Anime</h4>
+                        <ul>
+                            <li><a href="#">Fullmetal Alchemist: Brotherhood</a></li>
+                            <li><a href="#">Gintama°</a></li>
+                            <li><a href="#">Steins;Gate</a></li>
+                            <li><a href="#">Shingeki no Kyojin Season 3 Part 2</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Top Airing Anime</h4>
+                        <ul>
+                            <li><a href="#">Spy x Family</a></li>
+                            <li><a href="#">Kaguya-sama wa Kokurasetai: Ultra Romantic</a></li>
+                            <li><a href="#">One Piece</a></li>
+                            <li><a href="#">Kingdom 4th Season</a></li>
+                            <li><a href="#">Holo no Graffiti</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Most Popular Characters</h4>
+                        <ul>
+                            <li><a href="#">Lamperouge, Lelouch</a></li>
+                            <li><a href="#">Levi</a></li>
+                            <li><a href="#">Lawliet, L</a></li>
+                            <li><a href="#">Monkey D., Luffy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="footer-bottom">
+            <a>Copyright | AnimSUS | Hafiz Habani</a>
+        </div>
+</body>
+</html>

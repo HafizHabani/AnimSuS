@@ -1,0 +1,7 @@
+  td, th  {
+    padding    : 10px;
+  }
+
+  tbody{
+      background: rgba(255, 255, 255, 0.288);
+  }
